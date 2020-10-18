@@ -234,7 +234,7 @@ if(text_ === true){
         window.open(url);
     });
 	  $('.downloadAPK').on('click', function(e){
-	      $('#download').removeAttr('style');
+	      $('#ytu, #relacionados, #download, .footer-bottom').removeAttr('style');
 		  if($(this).attr('href') == "#"){
 			  e.preventDefault();
 			  var topdownload = $('#download').offset(); 
