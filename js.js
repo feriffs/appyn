@@ -46,7 +46,7 @@ if(text_ === true){
 			  $('body').toggleClass('toggle-nav');
 			  if( $(this).find('i').hasClass('fa-bars') ) {
 				  $(this).find('i').attr('class', 'fa fa-close');
-				  $('#menu-mobile').removeAttr('style');
+				  $('#menu-mobile').fadeIn(500);
 			  } else {
 				  $(this).find('i').attr('class', 'fa fa-bars');
 				  $('#menu-mobile').hide();
