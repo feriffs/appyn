@@ -391,7 +391,7 @@ if(text_ === true){
 		request.done(function (response, textStatus, jqXHR){
             if( response == 1 ) {
                 $('#box-report form h2').nextAll().remove();
-                $('#box-report form h2').after('<p style="text-align:center;">'+text_reporte_gracias+'</p>');
+                $('#box-report form h2').after('<p style="text-align:center;">Thank you for sending us your report.</p>');
             } else {
 				alert("error");
 				location.reload();
